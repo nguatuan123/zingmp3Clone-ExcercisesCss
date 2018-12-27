@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<div style="margin-top: 6px;">
+				<a href="."><img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.1/images/logo.png" title="Zing mp3 -  Âm nhạc như cức" width="100%"></a>
+			</div>
+
+			<div class="search">
+				<input type="text" placeholder="Nhập Nội Dung Cần Tìm">
+				<i class="fas fa-search"></i>
+			</div>
+
+			<div>
+				<a class="link-direction-active" href="#">MP3</a>
+				<a href="#">NEWS</a>
+				<a href="#">TV</a>
+				<a href="#">ZALO PC</a>
+			</div>
+
+			<div><a href="#">Đăng Nhập</a></div>
+		</div>
+	</header>
+	<nav class="navigation-top">
+		<div class="navigation-top-container">
+			<div>
+				<i class="fas fa-home"></i><a href="#"><span>Nhạc Cá Nhân</span></a>
+			</div>
+		&nbsp;&nbsp;
+			<div>
+				<a href="#">#Zingchart</a>
+			</div>
+			
+			<div>
+				<a href="#">Top 100</a>
+			</div>
+
+			<div>
+				<a href="#">Chủ Đề</a>
+			</div>
+
+			<div>
+				<a href="#">Video</a>
+			</div>
+
+			<div>
+				<a href="#">Album</a>
+			</div>
+
+			<div>
+				<a href="#">Nghệ sĩ</a>
+			</div>
+
+			<div>
+				<a href="#">VIP</a>
+			</div>
+
+			<div>
+				<a href="#">#ZMA2018</a>
+				<div><a href="#"><i class="fas fa-power-off"></i> Tắt Quảng Cáo</a><a href="#"><i class="fas fa-cloud-upload-alt"></i></a></div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="main-container">
+		<div class="left-sign">
+			<div class="slideshow-container">
+				<div class="slideshow-main-bg-container">
+					<a href="#">
+						<img src="https://photo-zmp3.zadn.vn/banner/f/7/2/4/f72435ecf7057fdad9f55b2ef9d60515.jpg" alt="Em Có Thể" width="100%;" id="slide-show-main-bg">
+					</a> 
+				</div>
+				
+				<div class="progress-time" id="timebar-progress" style=""></div>
+
+				<div class="slideshow-selector-container">
+					<div>
+						<img 
+							src="https://photo-zmp3.zadn.vn/banner/f/7/2/4/f72435ecf7057fdad9f55b2ef9d60515.jpg" 
+							onmouseover="slideShowSelection(0, this.id)" alt="Em Có Thể" id="slideShow-selector-0"
+							style="">
+					</div>
+
+					<div>
+						<img 
+							src="https://photo-zmp3.zadn.vn/banner/4/6/1/d/461dc913fd849ab3170e91c7f25fdd55.jpg" 
+							onmouseover="slideShowSelection(1, this.id)" alt="Nhạc Việt Hot Của Tháng" id="slideShow-selector-1"
+							style="">
+					</div>
+
+					<div>
+						<img 
+							src="https://photo-zmp3.zadn.vn/banner/1/7/9/2/179249471c89a0b20bedeabe48614e27.jpg" 
+							onmouseover="slideShowSelection(2, this.id)" alt="Nhạc Giáng Sinh Bất Hủ" id="slideShow-selector-2"
+							style="">
+					</div>
+
+					<div>
+						<img 
+							src="https://photo-zmp3.zadn.vn/banner/4/f/4/2/4f42d0d22c276425181a971f5b4f01c1.jpg" 
+							onmouseover="slideShowSelection(3, this.id)" alt="TOP 20 - ZMA 2018 đã lộ diện!" id="slideShow-selector-3"
+							style="">
+					</div>
+
+					<div>
+						<img 
+							src="https://photo-zmp3.zadn.vn/banner/b/2/9/d/b29d51f4970cc5edb60e39134fa7c253.jpg" 
+							onmouseover="slideShowSelection(4, this.id)" alt="Em Sẽ Là Cô Dâu" id="slideShow-selector-4"
+							style="">
+					</div>
+				</div>
+			</div>
+
+			<div class="category-container">
+				<h1 class="category-title">THỜI THANH XUÂN TƯƠI ĐẸP</h1>
+
+				<div class="category-component">
+					<div class="category-items">
+						<a href="#">
+							<div title="FM 99.9MHz - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/2/4/7/b/247be85354102eb6902a3dc9457a5da9.jpg">
+						</a>
+
+						<a href="#">FM 99.9MHz</a>
+					</div>
+					
+					<div class="category-items">
+						<a href="#">
+							<div title="Thứ Năm Bolero - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/c/d/9/3/cd930eb8c62eb3e60b961b95f816ed0f.jpg">
+						</a>
+
+						<a href="#">Thứ Năm Bolero</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Hai Mùa Noel - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/1/5/4/4/1544221628c79a613fdc163fbefb595e.jpg">
+						</a>
+
+						<a href="#">Hai Mùa Noel</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Bố Mẹ Chúng Ta Đã Nghe Gì? - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/2/5/2/c/252c2f6db045e7014bcdd944d8f6e58a.jpg">
+						</a>
+
+						<a href="#">Bố Mẹ Chúng Ta Đã Nghe Gì</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Gió Đông Thổi - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/a/e/c/9/aec9512c0b0481b4a8b551eaf6ca63e7.jpg">
+						</a>
+
+						<a href="#">Gió Đông Có Thổi</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Gửi Thanh Xuân Tươi Đẹp - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/8/7/b/0/87b0cb44ffdf3c317630fca77fa2ba26.jpg">
+						</a>
+
+						<a href="#">Gửi Thanh Xuân Tươi Đẹp</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Những Bài Hát Được Tìm Kiếm Nhiều Nhất Trên Mạng Xã Hội - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/4/1/7/9/4179a6b1bfd269dc238076b329d23073.jpg">
+						</a>
+
+						<a href="#">Những Bài Hát Được Tìm Kiếm Nhiều Nhất</a>
+					</div>
+
+					<div class="category-items">
+						<a href="#">
+							<div title="Nhạc Hàn Không Lời Dành Cho Mùa Đông - Various Artists"></div>
+							<i class="fas fa-play"></i>
+							<img src="https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/a/1/8/6/a186b2a3b3808319695bf505a84ceece.jpg">
+						</a>
+
+						<a href="#">Nhạc Hàn Không Lời Dành Cho Mùa Đông</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="right-sign">
+			<div class="week-items-container">
+				<div class="area-selector">
+					<div class="area-selector-item-active">Việt Nam</div>
+					<div>US-UK</div>
+					<div>K-Pop</div>
+				</div>
+
+				<div class="top1-week-items-component">
+						<a href="#">
+							<img src="https://photo-zmp3.zadn.vn/banner/2/f/e/8/2fe8383a00b759c65723af67544fee45.jpg" alt="Bài hát Anh Đang Ở Đâu Đấy Anh - Hương Giang">
+						</a>
+						<div class="top1-week-overplay"></div>
+						
+						<div class="week-items-component" 
+							 style="position: absolute; bottom: 0; color: #fff; left: 2.6%; border: 0; height: 50%">
+					    	<div><span>01</span></div>
+					  
+					    	<div>
+					      		<span><a href="#" style="color: #fff">Anh Đang Ở Đâu Đấy Anh</a></span>
+					      		<span><a href="#" style="color: #ffffff;">Hương Giang</a></span>
+					    	</div>
+					  
+					    	<div>
+								<div style="background: none !important">
+					    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+					    			<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+					    			<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+					    		</div>
+					    		<p style="color: #dddddd">3,416</p>
+					    	</div>
+					  	</div>
+				</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>02</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">Thằng điên</a></span>
+			      		<span><a href="#">Justatee</a><a href="#">, Phương Ly</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,485</p>
+			    	</div>
+			  	</div>
+			  
+			  	<div class="week-items-component">
+			    	<div><span>03</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">Vô Tình</a></span>
+			      		<span><a href="#">Xesi</a><a href="#">, Hoaprox</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,786</p>
+			    	</div>
+			  	</div>
+			  
+			  	<div class="week-items-component">
+			    	<div><span>04</span></div>
+			  
+				    <div>
+				      	<span><a href="#">Con Trai Cưng</a></span>
+				      	<span><a href="#">K-ICM</a><a href="">, B ray</a></span>
+				    </div>
+			  
+			    	<div>
+						<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>2,407</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>05</span></div>
+			  
+				    <div>
+				      	<span><a href="#">24H</a></span>
+				      	<span><a href="#">LyLy</a><a href="">, Magazine</a></span>
+				    </div>
+			  
+			    	<div>
+						<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>2,407</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>06</span></div>
+			  
+				    <div>
+				      	<span><a href="#">Màu Nước Mắt</a></span>
+				      	<span><a href="#">Nguyễn Trần Trung Quân</a></span>
+				    </div>
+			  
+			    	<div>
+						<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,713</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>07</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">HongKong1 (Official Version)</a></span>
+			      		<span><a href="#">Nguyễn Trọng Tài</a><a href="#">, San Ji</a><a href="#">, Double X</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,631</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>08</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">Về</a></span>
+			      		<span><a href="#">Đạt G</a><a href="#">, DuUyen</a><a href="#">, BeeBB</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,530</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>09</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">Em Không Thể</a></span>
+			      		<span><a href="#">Tiên Tiên</a><a href="#">, Touliver</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>2,144</p>
+			    	</div>
+			  	</div>
+
+			  	<div class="week-items-component">
+			    	<div><span>10</span></div>
+			  
+			    	<div>
+			      		<span><a href="#">Nếu Ta Ngược Lối</a></span>
+			      		<span><a href="#">Châu Khải Phong</a></span>
+			    	</div>
+			  
+			    	<div>
+			    		<div>
+			    			<a href="#"><i class="fas fa-download" title="Tải về"></i></a>
+							<a href="#"><i class="fas fa-plus" title="Thêm vào"></i></a>
+							<a href="#"><i class="fas fa-share-alt" title="Chia sẻ"></i></a>
+			    		</div>
+			    		<p>1,481</p>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var slideImg = [
+			'https://photo-zmp3.zadn.vn/banner/f/7/2/4/f72435ecf7057fdad9f55b2ef9d60515.jpg',
+			'https://photo-zmp3.zadn.vn/banner/4/6/1/d/461dc913fd849ab3170e91c7f25fdd55.jpg',
+			'https://photo-zmp3.zadn.vn/banner/1/7/9/2/179249471c89a0b20bedeabe48614e27.jpg',
+			'https://photo-zmp3.zadn.vn/banner/4/f/4/2/4f42d0d22c276425181a971f5b4f01c1.jpg',
+			'https://photo-zmp3.zadn.vn/banner/b/2/9/d/b29d51f4970cc5edb60e39134fa7c253.jpg'
+		];
+
+		var slideId = [
+			'slideShow-selector-0',
+			'slideShow-selector-1',
+			'slideShow-selector-2',
+			'slideShow-selector-3',
+			'slideShow-selector-4'
+		];
+	</script>
+
+	<script style="text/javascript" src="main.js"></script>
+</body>
+</html>

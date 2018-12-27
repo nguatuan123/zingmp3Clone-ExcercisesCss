@@ -1,0 +1,483 @@
+body, html {
+  	width: 100%;
+  	height: 100%;
+  	padding: 0;
+  	margin: 0;
+  	font-family: Arial, sans-serif;
+  	background: #F2F2F2;
+}
+
+/* ************************************** PRIMARY ************************************** */
+
+@-webkit-keyframes gradient-fade {
+    0%  {
+	    opacity: .2;
+    	}
+    50% {
+    	opacity: .5;
+    }
+    100% {
+		opacity: .9;
+    }
+}
+
+a:link {
+ 	text-decoration: none;
+}
+
+a:hover {
+	color: #B662E3 !important;
+}
+
+/* **************************************** HEADER ************************************ */
+
+header {
+	max-width: 100%;
+	height: 3.15em;
+	background-color: #1C1C1C;
+}
+
+.header-container {
+	width: 1000px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.search {
+	position: relative;
+	margin-left: 4.8em;
+}
+
+.search input {
+	width: 340px;
+	height: 1.7em;
+}
+
+.search input[type=text] {
+	font-size: 14px;
+	padding-left: 3%;
+}
+
+.search i {
+	position: absolute;
+	right: 4px;
+	top: 8px;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+
+.header-container div:first-child + div + div {
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+}
+
+.header-container div:first-child + div + div a {
+	color: #ffffff;
+	padding: 1.35em .8em;
+	font-size: 13px;
+}
+
+.header-container div:first-child + div + div a:hover {
+	background-color: #000000;
+	color: #B662E3 !important;
+}
+
+.header-container div:last-child {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.header-container div:last-child a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.link-direction-active {
+	background-color: #000000;
+	color: #B662E3 !important;
+}
+
+/* ********************************* NAVIGATION TOP *********************************** */
+
+.navigation-top {
+	width: 100%;
+	height: 2.5em;
+	background-color: #E4E4E4;
+}
+
+.navigation-top-container {
+	width: 1000px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.navigation-top-container div a {
+	color: #333333;
+	font-size: 14px;
+}
+
+.navigation-top-container div:first-child {
+	border-right: solid 1.5px #ccc;
+	padding-right: .5em !important;
+}
+
+.navigation-top-container div:first-child i {
+	font-size: 18px !important;
+	color: #333333;
+	padding: 0 10px;
+}
+
+.navigation-top-container div a {
+	padding: .9em 1.05em !important;
+}
+
+.navigation-top-container div:last-child {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navigation-top-container div:last-child a {
+	padding: .4em .7em !important;
+	background: -webkit-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: -o-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: linear-gradient(to left, #524FA1, #9D64A7, #E2A2AF);
+	border-radius: 8em;
+	color: #ffffff !important;
+	margin-left: 1em;
+}
+
+.navigation-top-container div:last-child a:hover {
+	text-shadow: 1px 1px 1px #000;
+}
+
+.navigation-top-container div:last-child div a {
+	padding: 0 !important;
+	background: none !important;
+	border-radius: 0 !important;
+	color: #333333 !important;
+	text-shadow: none !important;
+}
+
+.navigation-top-container div:last-child div a:hover {
+	color: #B662E3 !important;
+}
+
+.navigation-top-container div a:hover {
+	background-color: #ffffff;
+}
+
+/* ********************************* MAIN CONTAINER *********************************** */
+
+.main-container{
+	width: 1000px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+/* ********************************* CONTAINER LEFT */
+.left-sign {
+	flex-basis: 660px;
+	height: auto;
+	margin-top: 15px;
+}
+
+/*************	 Slide show    */
+
+.slideshow-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slideshow-main-bg-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.progress-time {
+	width: 0;
+	height: 2px;
+	background: repeating-linear-gradient( 30deg, #524FA1, #606dbc 0px, #465298 10px, #465298 20px );
+	margin: 0 auto;
+}
+
+.slideshow-selector-container {
+	width: 97.5%;
+	height: 4em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.slideshow-selector-container div {
+	flex-basis: 18%;
+	height: auto;
+	cursor: pointer;
+	position: relative;
+}
+
+
+.slideshow-selector-container div:hover img {
+	opacity: .8;
+}
+
+.slideshow-selector-container div img {
+	max-width: 100%;
+}
+
+/*************     Category      */
+
+.category-container {
+	width: 100%;
+	height: auto;
+}
+
+.category-title {
+	color: #BB77BB;
+	font-weight: 300;
+	font-family: Calibri, sans-serif !important;
+}
+
+.category-component {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.category-items {
+	flex-basis: 22.8%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 70px;
+}
+
+.category-items a:first-child {
+	position: relative;
+	flex-basis: 100%;
+}
+
+.category-items a:first-child img {
+	max-width: 100%;
+	height: auto;
+}
+
+.category-items a:first-child i {
+	position: absolute;
+	font-size: 24px;
+	padding: 1em;
+	border-radius: 50%;
+	border: solid 1px #ffffff;
+	color: #ffffff;
+	transform: scale(.2);
+	top: 25%;
+	left: 25%;
+	visibility: hidden;
+	-webkit-transition: .1s all ease-in-out;
+	-o-transition: .1s all ease-in-out;
+	transition: .1s all ease-in-out;
+}
+
+.category-items a:first-child div {
+	position: absolute;
+	width: 100%;
+	height: 98%;
+	animation-name: gradient-fade;
+    animation-duration: .3s;  
+    -webkit-animation-name: gradient-fade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: .3s; /* Chrome, Safari, Opera */
+    visibility: hidden;
+    bottom: 4px;
+
+}
+
+.category-items a:last-child {
+	flex-basis: 100%;
+	color: #333;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.category-items a:first-child:hover i{
+	visibility: visible;
+	transform: scale(1);
+	transition: .3s all ease-in-out;
+}
+
+.category-items a:first-child:hover div {
+	visibility: visible;
+	transition: all 0.2s linear;
+	background: -webkit-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: -o-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: linear-gradient(to top, black, transparent 100%) bottom;
+}
+
+/* ******************************** CONTAINER RIGHT */
+.right-sign {
+	flex-basis: 300px;
+	height: auto;
+}
+
+.week-items-container {
+  	width: 100%;
+  	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	background-color: #ffffff;
+}
+
+.area-selector {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: 3em;
+	background-color: #ECF0F1; 
+}
+
+.area-selector div {
+	flex-basis: 33.333333333333333%;
+	text-align: center;
+	padding-top: 1em;
+	color: #333;
+	cursor: pointer;
+	border-top: #ECF0F1 solid 2.5px;
+}
+
+.area-selector div:hover{
+	border-color: #721799;
+	transition: .2s all ease-in-out;
+}
+
+.area-selector-item-active {
+	color: #000;
+	background-color: #fff;
+	border-top: #721799 solid 2.5px !important;
+}
+
+.top1-week-items-component{
+	width: 100%;
+	height: 8em;
+	position: relative;
+	overflow: hidden;
+}
+
+.top1-week-items-component:hover .week-items-component div:last-child div {
+	display: flex;
+}
+
+.top1-week-items-component:hover .week-items-component div:last-child p {
+	display: none;
+}
+
+.top1-week-items-component img {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.top1-week-overplay {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 4em;
+	opacity: .9;
+	background: -webkit-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: -o-linear-gradient(bottom, black, transparent 100%) bottom;
+	background: linear-gradient(to top, black, transparent 100%) bottom;
+}
+
+.week-items-component {
+  	display: flex;
+  	flex-direction: row;
+  	width: 95%;
+  	height: 4em;
+  	border-bottom: solid #f2f2f2 0.01em;
+}
+
+.week-items-component div:first-child {
+  	flex-basis: 13%;
+  	text-align: center;
+  	padding-top: 20px;
+}
+
+.week-items-component div:first-child + div {
+  	flex-basis: 68%;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: right;
+}
+
+.week-items-component div:first-child + div span:first-child a{
+  	font-size: 14px;
+  	color: #333;
+}
+
+.week-items-component div:first-child + div span:last-child a{
+  	font-size: 12px;
+  	font-weight: 300;
+  	color: #a6a6a6;
+}
+
+.week-items-component div:last-child {
+  	flex-grow: 2;
+  	text-align: right;
+  	position: relative;
+}
+
+.week-items-component div:last-child p {
+  	font-size: 12px;
+  	padding: 10px;
+  	color: #a6a6a6;
+}
+
+.week-items-component div:last-child div {
+	display: none;
+	position: absolute;
+	right: 0;
+	width: 4em;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.week-items-component div:last-child div a {
+	color: #a6a6a6;
+	font-size: 12px;
+}
+
+.week-items-component:hover div:last-child div {
+	display: flex;
+}
+
+.week-items-component:hover div:last-child p {
+	display: none;
+}
